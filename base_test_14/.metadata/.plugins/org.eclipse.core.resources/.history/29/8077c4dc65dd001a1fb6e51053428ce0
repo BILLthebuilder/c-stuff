@@ -1,0 +1,75 @@
+#include "sdk_tplus.h"
+#include "Training.h"
+#include "globals.h"
+
+
+
+int reqBuild(tBuffer * req) {
+	int ret;
+	byte bit = 0, idx = 0;
+	byte mti[1 + lenMti];
+	byte Bitmap[1 + (lenBitmap*2)];
+	char mtiStr[4 + lenMti];
+	char BitmapStr[4 + (lenBitmap*4)];
+	tBuffer buf;
+	byte dat[999 + 1];
+	card key;
+	char keyStr[40];
+	byte txnId = 0;
+	card bitLen = 0;
+	char bitLenStr[2 + 1];
+
+	VERIFY(req);
+
+	//    ret = mapGetByte(regLocType, LocationType);
+	//    CHK;
+	memset(dat, 0, sizeof(dat));
+	memset(mti, 0, sizeof(mti));
+	memset(keyStr, 0, sizeof(keyStr));
+	memset(mtiStr, 0, sizeof(mtiStr));
+	memset(Bitmap, 0, sizeof(Bitmap));
+	memset(BitmapStr, 0, sizeof(BitmapStr));
+	memset(bitLenStr, 0, sizeof(bitLenStr));
+
+
+	//get the MTI of the transaction
+	strcpy(mtiStr, "1200");
+	hex2bin(mti, mtiStr, 0);
+	ret = bufApp(req, mti + 1, 2);
+
+	memset(Bitmap, 0, sizeof(Bitmap));
+
+	MAPGET(traRqsBitMap, BitmapStr, lblKO);
+	hex2bin(Bitmap, BitmapStr, 0);
+
+	ret = modifyBitmap(Bitmap + 1);
+	CHK;
+
+	//get length of the bitmap
+	bin2hex(bitLenStr, Bitmap,1);
+	hex2num(&bitLen, bitLenStr, 0);
+
+	ret = bufApp(req, Bitmap + 1, bitLen);
+	CHK;
+
+	for (bit = 2; bit <= bitLen * lenBitmap; bit++) {
+		if(!bitTest(Bitmap + 1, bit))
+			continue;
+
+		//clear buffer to hold data
+		memset(dat, 0, sizeof(dat));
+		bufInit(&buf, dat, sizeof(dat));   //initialize temporary buffer for current field
+
+		//get field data
+		ret = getFld(&buf, bit);
+		CHK;                    //retrieve the value from the data base
+
+		//append to request
+		ret = appFld(req, bit, &buf);
+		CHK;                    //append it to the iso message
+	}
+
+	return bufLen(req);
+	lblKO:
+	return -1;
+}

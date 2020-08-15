@@ -1,0 +1,37 @@
+[SAT]
+CertificateAppliDir=E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.core_7.28.6.1\defaultSystemFiles
+SignedSchemaDir=C:\Users\KEVSHAKE\AppData\Local\Temp\Telium
+ApplicationDir=E:\Program Files\Training_BASE_Test\TRAINAPP\Bin\GNU_ARM_DEBUG_T2
+ParametersDir=E:\Program Files\Training_BASE_Test\TRAINAPP\Bin\GNU_ARM_DEBUG_T2
+DestinationDir=E:\Program Files\Training_BASE_Test\TRAINAPP\Bin\GNU_ARM_DEBUG_T2
+TempDir=C:\Users\KEVSHAKE\AppData\Local\Temp\Telium
+
+[Schemas]
+NbSchemas=17
+Schema1=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\ScCplutlTlv.sgn
+Schema2=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\STLList_Tlv.sgn
+Schema3=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvAESCiph.sgn
+Schema4=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvCipherDa.sgn
+Schema5=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvDukpTDes.sgn
+Schema6=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvFirstKey.sgn
+Schema7=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvFree.sgn
+Schema8=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvHaMcS224.sgn
+Schema9=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvHMac.sgn
+Schema10=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvIso9564.sgn
+Schema11=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvKeyVerif.sgn
+Schema12=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvLoadData.sgn
+Schema13=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvLoadHMAC.sgn
+Schema14=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvLoadKey.sgn
+Schema15=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvLoadTR31.sgn
+Schema16=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvMacTDes.sgn
+Schema17=C:\Program Files\TeliumSDK\SDK11.16.8.02\Schemes\DEBUGSigned\T2\TlvMAKeyGen.sgn
+
+[Application]
+ParameterFile=TRAINAPP_T2.TXT
+ApplicationFile=TRAINAPP.BIN
+CertificateFile=sat.C13
+CatalogFileExtension=XX
+
+[Error]
+Code=0
+msg=files correctly signed.

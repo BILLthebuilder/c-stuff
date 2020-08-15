@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="tcIpAddressN" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="true" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="tcIpAddressN"/>
+			<item value="GL_Dialog_Text"/>
+			<item value="uiBankId"/>
+			<item value="Location"/>
+			<item value="cAlgoType"/>
+			<item value="hGoal"/>
+			<item value="getPrcCod"/>
+			<item value="end"/>
+			<item value="stPadding"/>
+			<item value="xParam"/>
+			<item value="ucType"/>
+			<item value="ucNew"/>
+			<item value="fclose"/>
+			<item value="after"/>
+			<item value="FILE"/>
+		</list>
+		<list key="replacehistory">
+			<item value="gGoalGraphicLibInstance"/>
+			<item value="Telium_Fclose"/>
+			<item value="Telium_File_t"/>
+			<item value="Telium_Ttestall"/>
+			<item value="EGPRS_"/>
+			<item value="DGPRS_"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="641" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-36|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="836" key="DIALOG_HEIGHT"/>
+		<item value="1162" key="DIALOG_X_ORIGIN"/>
+		<item value="253" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

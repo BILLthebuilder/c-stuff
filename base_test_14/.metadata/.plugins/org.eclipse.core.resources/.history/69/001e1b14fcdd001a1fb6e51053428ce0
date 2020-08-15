@@ -1,0 +1,404 @@
+#include "sdk_tplus.h"
+#include "Training.h"
+#include "globals.h"
+#include "iso8583.h"
+#include "GTL_Assert.h"
+
+#define CHK CHECK(ret>=0,lblKO)
+static byte LocationType;       //location on where to get certain information?     // 'L' - log , 'T' = tra
+static int thereis_F;
+
+
+
+
+static int getPanVal(tBuffer * val) {
+	int ret;
+	byte buf[256];
+	byte bcd[lenPan];
+
+
+	VERIFY(val);
+	ret = mapGet(traPan, buf, 256);
+	CHK;
+	VERIFY(strlen((char *) buf) <= 256);
+	bufReset(val);
+
+	ret = strlen((char *) buf);
+	if(ret % 2 != 0)
+		ret++;
+
+	hex2bin(bcd, (char *)buf, ret/2);
+
+	ret = bufApp(val, bcd, ret/2);
+	CHK;
+
+	return ret;
+	lblKO:
+	return -1;
+}
+
+
+static int getAmt(tBuffer * val) {
+	int ret;
+	char amt[lenAmt + 1];
+	byte bcd[lenAmtBcd];
+	word Amtkey;
+
+	VERIFY(val);
+
+	memset(amt, 0, sizeof(amt));
+
+	switch (LocationType) {
+	//      case 'R':
+	//          Amtkey = revAmt;
+	//          TipAmtkey = revTipAmt;
+	//          break;
+	//      case 'L':
+	//          Amtkey = logTraAmt;
+	//          TipAmtkey = logTipAmt;
+	//          break;
+	//      case 'T':
+	default:
+		Amtkey = traAmt;
+		break;
+	}
+
+	MAPGET(Amtkey, amt, lblKO);
+
+	fmtPad(amt, -lenAmt, '0');
+	hex2bin(bcd, amt, 0);
+
+	ret = bufApp(val, bcd, lenAmtBcd);
+	CHK;
+
+	return ret;
+	lblKO:
+	return -1;
+}
+
+
+static int getPIN(tBuffer * val) {
+	int ret;
+	byte PIN[1 + lenPinBlk];
+	//	char tmp[2 * lenPIN + 1];
+
+	VERIFY(val);
+
+	ret = mapGet(traPinBlk, PIN, sizeof(PIN));
+	CHK;
+
+	//	CHECK(*PIN == lenPinBlk, lblKO);
+	//	bin2hex(tmp, (byte *) PIN + 1, lenPinBlk);
+	//	ret = bufApp(val, (byte *) tmp, lenPinBlk);
+	//	CHK;
+	ret = bufApp(val, PIN, lenPinBlk);
+	CHK;
+
+	return ret;
+	lblKO:
+	return -1;
+}
+
+
+static int getPrcCod(tBuffer * val) {
+	int ret;
+	byte PrcCod[1 + lenPrcCod];
+	char PrcCodStr[1 + (lenPrcCod*2)];
+
+	VERIFY(val);
+
+	memset(PrcCodStr, 0, sizeof(PrcCodStr));
+	memset(PrcCod,0,sizeof(PrcCod));
+
+	strcpy(PrcCodStr, "000000");
+
+	hex2bin(PrcCod, PrcCodStr, 0);
+
+	ret = bufApp(val, PrcCod, lenPrcCod);
+	CHK;
+
+	return ret;
+	lblKO:
+	return -1;
+}
+
+
+static int getTrack2(tBuffer * val) {
+	int ret, ctr, len;
+	char track2[lenTrk2 + 1];
+	byte bcdTrack2[(lenTrk2 + 1) / 2];
+	word key;
+	int x = 0;
+
+	memset(track2, 0, sizeof(track2));
+	memset(bcdTrack2, 0, sizeof(bcdTrack2));
+
+	thereis_F = 0;
+
+	VERIFY(val);
+	switch (LocationType) {
+	//      case 'R':
+	//          key = revTrk2;
+	//          break;
+	//      case 'L':
+	//          key = logTrk2;
+	//          break;
+	default:
+		key = traTrk2;
+		break;
+	}
+
+	ret = mapGet(key, track2, sizeof(track2));
+	CHK;
+
+	len = strlen(track2);
+	for (ctr = 0; ctr < len; ctr++) {
+		if(track2[ctr] == '=') {
+			track2[ctr] = 'D';
+		}
+		if(track2[ctr] == 'F') {
+			thereis_F = 1;
+			for (x = 1; x < (len-ctr); x++) {
+				track2[ctr+x] = 0x0;
+			}
+			len = ctr + 1;
+			break;
+		} else if ((track2[ctr] >= 'A' && track2[ctr] <= 'Z') || (track2[ctr] >= 'a' && track2[ctr] <= 'z')){
+			if(track2[ctr] != 'D') {
+				for (x = 0; x < (len-ctr); x++) {
+					track2[ctr+x] = 0x0;
+				}
+				len = ctr;
+				break;
+			}
+		}
+	}
+
+	if((len % 2 != 0) && (!thereis_F)){
+		thereis_F = 1;
+		track2[len] = 'F'; //to remove error on MTIP transactions that dont need a zero at the end
+		track2[len+1] = 0x0;
+		len = len + 1;
+	}
+
+
+	//	ret = bufAppStr(val, track2);
+	//	CHK;
+
+	hex2bin(bcdTrack2,track2,0);
+	len = len / 2;
+	ret = bufApp(val, (byte *) bcdTrack2, len);
+	CHK;
+
+	ret = len;
+
+	return ret;
+	lblKO:
+	return -1;
+}
+
+
+
+static int getFld(tBuffer * val, byte bit) {
+
+	VERIFY(val);
+	bufReset(val);
+	switch (bit) {
+	case isoPan:
+		return getPanVal(val);
+	case isoPrcCod:
+		return getPrcCod(val);
+	case isoAmt:
+		return getAmt(val);
+	case isoTrk2:
+		return getTrack2(val);
+	case isoPinDat:          //052  PIN
+		return getPIN(val);
+	default:
+		break;
+	}
+	return -1;
+}
+
+
+word getLen_(byte bit,int fmt){
+	word returnData=0;
+
+	switch (bit) {
+	case 37: case 38: case 39: case 41:
+	case 42: case 43: case 49: case 52: case 53:
+	case 28:
+		returnData=fmt;
+		break;
+	default:
+		if(fmt % 2 != 0)
+			fmt++;
+		returnData= fmt / 2;
+		break;
+	}
+
+	return returnData;
+}
+
+
+int getLen_fmt(byte bit,int len){
+
+	if(bit==35){
+		len=len*2;
+		if (thereis_F)
+			len = len - 1;
+		if(len>37)len=37;
+
+		thereis_F = 0; //notify that 'f' was processed
+	}else if(bit==2){
+		len=len*2;
+		if(len>19)len=19;
+	}
+
+	return len;
+}
+
+
+
+static int appFld(tBuffer * req, byte bit, const tBuffer * val) {
+	int ret = 0;
+	int fmt;
+	char tmp[5 + 1];
+	byte buf[1024];
+	byte bcd[5 + 1];
+	word len;
+	byte cnt;
+
+	memset(bcd, 0, sizeof(bcd));
+	memset(buf, 0, sizeof(buf));
+	memset(tmp, 0, sizeof(tmp));
+
+	fmt = isoFmt(bit);
+
+	if(fmt < 0) {               //LLVAR or LLLVAR
+		len = bufLen(val);
+
+		cnt = -fmt;
+		VERIFY(cnt);
+
+		len = getLen_fmt(bit,len);
+
+		memcpy(buf, bufPtr(val), len);
+		num2dec(tmp, len,(cnt - 1) * 2);
+		hex2bin(bcd, tmp, 0);
+
+		ret = bufApp(req, bcd, cnt - 1);
+
+		if(bit==35 || bit==2){ // custom length of postilion
+			if(len % 2 != 0) len++;
+			len=len/2;
+		}
+	} else {
+		len = getLen_(bit,fmt);///(kev-Code) Modification
+		memcpy(buf, bufPtr(val), len);
+	}
+
+	ret = bufApp(req, buf, len);
+	CHK;
+
+	return bufLen(req);
+	lblKO:
+	return -1;
+}
+
+int reqBuild(tBuffer * req) {
+	int ret;
+	byte bit = 0;
+	byte mti[1 + lenMti];
+	byte Bitmap[1 + (lenBitmap*2)];
+	char mtiStr[4 + lenMti];
+	char BitmapStr[4 + (lenBitmap*4)];
+	tBuffer buf;
+	byte dat[999 + 1];
+	char keyStr[40];
+	card bitLen = 0;
+	char bitLenStr[2 + 1];
+
+	VERIFY(req);
+
+	//    ret = mapGetByte(regLocType, LocationType);
+	//    CHK;
+	memset(dat, 0, sizeof(dat));
+	memset(mti, 0, sizeof(mti));
+	memset(keyStr, 0, sizeof(keyStr));
+	memset(mtiStr, 0, sizeof(mtiStr));
+	memset(Bitmap, 0, sizeof(Bitmap));
+	memset(BitmapStr, 0, sizeof(BitmapStr));
+	memset(bitLenStr, 0, sizeof(bitLenStr));
+
+
+	//get the MTI of the transaction
+	strcpy(mtiStr, "1200");
+	hex2bin(mti, mtiStr, 0);
+	ret = bufApp(req, mti + 1, 2);
+
+
+	strcpy( BitmapStr, "087000000000001000");
+	memset(Bitmap, 0, sizeof(Bitmap));
+	hex2bin(Bitmap, BitmapStr, 0);
+
+	//get length of the bitmap
+	bin2hex(bitLenStr, Bitmap,1);
+	hex2num(&bitLen, bitLenStr, 0);
+
+	ret = bufApp(req, Bitmap + 1, bitLen);
+	CHK;
+
+	for (bit = 2; bit <= bitLen * lenBitmap; bit++) {
+		if(!bitTest(Bitmap + 1, bit))
+			continue;
+
+		//clear buffer to hold data
+		memset(dat, 0, sizeof(dat));
+		bufInit(&buf, dat, sizeof(dat));   //initialize temporary buffer for current field
+
+		//get field data
+		ret = getFld(&buf, bit);
+		CHK;                    //retrieve the value from the data base
+
+		//append to request
+		ret = appFld(req, bit, &buf);
+		CHK;                    //append it to the iso message
+	}
+
+	return bufLen(req);
+	lblKO:
+	return -1;
+}
+
+void doTransaction(void){
+	tBuffer bReq;    // Request Buffer
+	byte dReq[(1024 * 3) + 1]; // Request data
+	tBuffer bRsp;    // Response Buffer
+	byte dRsp[(1024 * 3) + 3]; // Response data
+	tBuffer bTPDUReq;// TPDU Request Buffer
+	byte dTPDUReq[lenTPDU + lenBCDMsg + 1];
+	byte bytTPDU[6 + 1];
+	int ret = 0;
+
+
+	memset(dRsp, 0, sizeof(dRsp));
+	memset(dReq, 0, sizeof(dReq));
+	memset(bytTPDU, 0, sizeof(bytTPDU));
+	memset(strTPDU, 0, sizeof(strTPDU));
+	memset(dTPDUReq, 0, sizeof(dTPDUReq));
+	memset(tpduHead, 0, sizeof(tpduHead));
+
+	//initialize request buffer
+	bufInit(&bRsp, dRsp, sizeof(dRsp));
+	bufInit(&bReq, dReq, sizeof(dReq));
+	bufInit(&bTPDUReq, dTPDUReq, sizeof(dTPDUReq));
+
+	ret = reqBuild(&bReq);
+
+	MAPPUTSTR(traMessagePack, dReq, lblKO);
+
+	ComGPRS();
+
+	lblKO:;
+}

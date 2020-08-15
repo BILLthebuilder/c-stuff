@@ -1,0 +1,28 @@
+Add Hardware Telium Tetra capabilities
+================================================
+
+
+================================================
+Execution report:
+================================================
+------------------------------------------------
+Information:
+------------------------------------------------
+Info: Configuration 'GNU_ARM_DEBUG_TETRA' was added to 'TRAINAPP' project.
+
+Info: Configuration 'GNU_ARM_DEBUG_TETRA': Telium SDK was added and set to version '11.16.8.02'.
+
+Info: Configuration 'GNU_ARM_RELEASE_TETRA' was added to 'TRAINAPP' project.
+
+Info: Configuration 'GNU_ARM_RELEASE_TETRA': Telium SDK was added and set to version '11.16.8.02'.
+
+------------------------------------------------
+Warnings:
+------------------------------------------------
+Warning: Configuration 'GNU_ARM_DEBUG_TETRA': addons listed below was removed (user needs to add Telium Plus Hardware Tetra compatible version manually in TRAINAPP' project):
+- 'Telium Addon SQLite' version '1.12.0.00'
+
+Warning: Configuration 'GNU_ARM_RELEASE_TETRA': addons listed below was removed (user needs to add Telium Plus Hardware Tetra compatible version manually in TRAINAPP' project):
+- 'Telium Addon SQLite' version '1.12.0.00'
+
+================================================

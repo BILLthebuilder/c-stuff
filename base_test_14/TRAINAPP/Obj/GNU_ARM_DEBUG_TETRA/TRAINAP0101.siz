@@ -1,0 +1,38 @@
+Obj/GNU_ARM_DEBUG_TETRA/TRAINAP0101.axf  :
+section             size     addr
+.interp               19    33076
+.note.ABI-tag         32    33096
+.hash                376    33128
+.dynsym              880    33504
+.dynstr              761    34384
+.gnu.version         110    35146
+.gnu.version_r        80    35256
+.rel.dyn              40    35336
+.rel.plt             304    35376
+.init                 12    35680
+.plt                 488    35692
+.text             104036    36180
+.fini                  8   140216
+.rodata            16496   140224
+.ARM.exidx             8   156720
+.eh_frame              4   156728
+.init_array            8   192512
+.fini_array           12   192520
+.jcr                   4   192532
+.dynamic             256   192536
+.got                 272   192792
+.data               3232   193072
+.bss               82196   196304
+.comment             134        0
+.ARM.attributes       65        0
+.debug_aranges       608        0
+.debug_info        89634        0
+.debug_abbrev       6616        0
+.debug_line        16133        0
+.debug_frame        9324        0
+.debug_str         21999        0
+.debug_loc         15910        0
+.debug_ranges         24        0
+Total             370081
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597298834962_0" label="other" name="other"/>
+<workingSet editPageId="com.hcrest.classpath.natureWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597298835086_1" label="framework T2" name="Nature: com.ingenico.ingedev.telium.core.teliumNature"/>
+<workingSet editPageId="com.hcrest.classpath.natureWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597298835407_2" label="framework T3" name="Nature: com.ingenico.ingedev.telium.fwt3.core.teliumFwT3Nature"/>
+<workingSet editPageId="com.hcrest.classpath.natureWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597298835473_3" label="framework T+" name="Nature: com.ingenico.ingedev.telium.fwtplus.core.teliumFwTplusNature">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TRAINAPP" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597298838226_4" label="Window Working Set" name="Aggregate for window 1597298838226"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1597307767304_5" label="Window Working Set" name="Aggregate for window 1597307767304"/>
+</workingSetManager>

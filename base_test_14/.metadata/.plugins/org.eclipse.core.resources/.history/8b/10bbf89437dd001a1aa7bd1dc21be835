@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?teliumProject version="5.0"?><?ingedev version="7.28.6.1"?><projectDescription activeConfig="GNU_ARM_DEBUG_T2" enableUsingCpp="true" projectType="APP">
+<virtualFolders>
+<virtualFolder name="Other Files" sources="false"/>
+<virtualFolder name="Source Files" sources="true">
+<file generated="false" name="Src\Main.c" parentProject=""/>
+<file generated="false" name="Src\Entry.c" parentProject=""/>
+<file generated="false" name="Src\Menu.c" parentProject=""/>
+<file generated="false" name="Src\ComGPRS.c" parentProject=""/>
+<file generated="false" name="Src\Goal.c" parentProject=""/>
+<file generated="false" name="Src\Mapapp.c" parentProject=""/>
+<file generated="false" name="Src\FMG.c" parentProject=""/>
+<file generated="false" name="Src\Utility.c" parentProject=""/>
+<file generated="false" name="Src\Timer.c" parentProject=""/>
+</virtualFolder>
+<archiveFilesVirtualFolder name="Archive Files"/>
+</virtualFolders>
+<configs>
+<config applicationType="0x6e" asmCpuMode="thumb" assemblerCustomOpt="" binaryName="TRAINAPP" codeBaseAddr="0x0" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" crc="false" dataBaseAddr="0x00200000" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium 2" descr="Training App" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" linkerCustomOpt="" name="GNU_ARM_DEBUG_T2" projectFamily="TRAINAPP" sign="false" useDataFileNamingConvention="true" zip="false">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium 2"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<teliumAddonPackages>
+<teliumAddonPackage package="Telium Addon SQLite" version="1.12.0.00"/>
+</teliumAddonPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<dataFiles/>
+<userSystemLibraries/>
+<userSystemLibrariesOptions/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<packageSchemes>
+<packageScheme name="DEBUGSigned\T2\ScCplutlTlv.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\STLList_Tlv.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvAESCiph.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvCipherDa.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvDukpTDes.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvFirstKey.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvFree.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvHaMcS224.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvHMac.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvIso9564.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvKeyVerif.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvLoadData.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvLoadHMAC.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvLoadKey.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvLoadTR31.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvMacTDes.sgn" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\T2\TlvMAKeyGen.sgn" package="Telium SDK" version="11.16.8.02"/>
+</packageSchemes>
+<externalSchemes/>
+<simpleLibraries>
+<simpleLib name="lib/FMG_TPlus.a"/>
+</simpleLibraries>
+<packageLibraries>
+<packageLib name="BarCode_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="eft30tplus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="TRAP_TELIUM_PLUS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="BCR_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SECTPLUS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SEC_extend" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="Digest_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="dll_wifi_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="IP_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBGRAPHICS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LinkLayerExeInterface_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SNMP_Tplus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SSL_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="gps_dll" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="IPA280_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="ExtraGPRS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="Mifare_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="TPass_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="GTL_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SNTP" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="XMLs_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="FMG_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="TlvTree_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="GRAPHICLIB" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="FTP_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="OSLAYER" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBOS" package="Telium SDK" version="11.16.8.02"/>
+</packageLibraries>
+<packageIncs>
+<packageInc package="Telium SDK" version="11.16.8.02"/>
+<packageInc package="Telium Addon SQLite" version="1.12.0.00"/>
+<packageInc package="T3 service for T+ apps - ADD-On" version="11.16.8.02"/>
+</packageIncs>
+<packageDefines>
+<packageDefine package="Telium SDK" version="11.16.8.02"/>
+<packageDefine package="Telium Addon SQLite" version="1.12.0.00"/>
+</packageDefines>
+</config>
+<config applicationType="0x6e" asmCpuMode="thumb" binaryName="TRAINAP0101" compiler="gnuArm47v7a" compilerCustomOpt="" cpuMode="thumb" crc="false" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium Tetra" descr="Training App" disassembler="true" enableCPPExceptions="true" gnuOptim="-O0" linkerCustomOpt="" name="GNU_ARM_DEBUG_TETRA" projectFamily="TRAINAPP" sign="false" signatureCertificate="PAYMENT" stripOpt="" useDataFileNamingConvention="true" zip="false">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium Tetra"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<dataFiles/>
+<userSystemLibraries/>
+<userSystemLibrariesOptions/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<teliumPackageInfo countryCode="000" family="TRAINAPP" identifier="110" maintenancePatch="00" majorVersion="00" minorRelease="00" range="00"/>
+<packageLibraries>
+<packageLib name="libSec" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="libSecurityTp" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="libpackip" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBGRAPHICS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SPMCI_TPlus" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="ExtraGPRS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="libGRAPHICLIB" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBTPLUSMANAGER" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBOS" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="libOSLAYER" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="liblinklayer" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="SQLITELIB" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="libtelinux" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBSERVICE" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBSVCDIRPX" package="Telium SDK" version="11.16.8.02"/>
+<packageLib name="LIBSVCDIRSK" package="Telium SDK" version="11.16.8.02"/>
+</packageLibraries>
+<packageIncs>
+<packageInc package="Telium SDK" version="11.16.8.02"/>
+</packageIncs>
+<packageDefines>
+<packageDefine package="Telium SDK" version="11.16.8.02"/>
+</packageDefines>
+<userAsmIncs/>
+<userAsmDefines/>
+<packageSchemes>
+<packageScheme name="DEBUGSigned\HW_TETRA\500006012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500007012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500008012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500009012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500010012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500011012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500012012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500014012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500015012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500016012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500018012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500031010200.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500032030200.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+<packageScheme name="DEBUGSigned\HW_TETRA\500063012100.S3S.mockup" package="Telium SDK" version="11.16.8.02"/>
+</packageSchemes>
+<externalSchemes/>
+</config>
+<config applicationType="0x6e" asmCpuMode="thumb" binaryName="TRAINAPP" codeBaseAddr="0x0" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" crc="true" dataBaseAddr="0x00200000" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium 2" descr="Training App" enableCPPExceptions="true" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" linkerCustomOpt="" name="GNU_ARM_RELEASE_T2" projectFamily="TRAINAPP" useDataFileNamingConvention="true" zip="true">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium 2"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<teliumAddonPackages>
+<teliumAddonPackage package="Telium Addon SQLite" version="1.12.0.00"/>
+</teliumAddonPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<prebuild/>
+<postbuild/>
+</config>
+<config applicationType="0x6e" asmCpuMode="thumb" binaryName="TRAINAPP" compiler="gnuArm47v7a" compilerCustomOpt="" cpuMode="thumb" crc="true" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium Tetra" descr="Training App" enableCPPExceptions="true" gnuOptim="-Os" linkerCustomOpt="" name="GNU_ARM_RELEASE_TETRA" projectFamily="TRAINAPP" signatureCertificate="PAYMENT" stripOpt="" useDataFileNamingConvention="true" zip="true">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium Tetra"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<teliumPackageInfo countryCode="000" family="TRAINAPP" identifier="110" maintenancePatch="00" majorVersion="00" minorRelease="00" range="00"/>
+<externalSchemes/>
+<prebuild/>
+<postbuild/>
+</config>
+</configs>
+<groupConfigs/>
+</projectDescription>

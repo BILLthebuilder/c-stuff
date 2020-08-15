@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?teliumProject version="5.0"?><?ingedev version="7.28.6.1"?><projectDescription activeConfig="GNU_ARM_DEBUG_T2" enableUsingCpp="true" projectType="APP">
+<virtualFolders>
+<virtualFolder name="Other Files" sources="false"/>
+<virtualFolder name="Source Files" sources="true">
+<file generated="false" name="Src\Main.c" parentProject=""/>
+<file generated="false" name="Src\Entry.c" parentProject=""/>
+<file generated="false" name="Src\Menu.c" parentProject=""/>
+</virtualFolder>
+<archiveFilesVirtualFolder name="Archive Files"/>
+</virtualFolders>
+<configs>
+<config applicationType="0x6e" asmCpuMode="thumb" binaryName="TRAINAPP" codeBaseAddr="0x0" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" crc="false" dataBaseAddr="0x00200000" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium 2" descr="Training App" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" linkerCustomOpt="" name="GNU_ARM_DEBUG_T2" projectFamily="TRAINAPP" sign="false" useDataFileNamingConvention="true" zip="false">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium 2"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<teliumAddonPackages>
+<teliumAddonPackage package="Telium Addon SQLite" version="1.12.0.00"/>
+</teliumAddonPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<dataFiles/>
+<userSystemLibraries/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<prebuild/>
+<externalSchemes/>
+<postbuild/>
+</config>
+<config applicationType="0x6e" asmCpuMode="thumb" binaryName="TRAINAPP" codeBaseAddr="0x0" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" crc="true" dataBaseAddr="0x00200000" dataBinaryFileBaseName="DATA006E" defaultTeliumCompatibility="Telium 2" descr="Training App" enableCPPExceptions="true" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" linkerCustomOpt="" name="GNU_ARM_RELEASE_T2" projectFamily="TRAINAPP" useDataFileNamingConvention="true" zip="true">
+<teliumCompatibilities>
+<teliumCompatibility value="Telium 2"/>
+</teliumCompatibilities>
+<userIncs>
+<userInc value="Inc"/>
+</userIncs>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.16.8.02"/>
+</teliumSdkPackages>
+<teliumAddonPackages>
+<teliumAddonPackage package="Telium Addon SQLite" version="1.12.0.00"/>
+</teliumAddonPackages>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_FAMILY=&quot;${appli_family}&quot;"/>
+<userDefine value="_ING_APPLI_TYPE=${appli_type}"/>
+<userDefine value="_ING_APPLI_TELIUM1_FULL_BINARY_NAME=&quot;${appli_telium1_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM2_FULL_BINARY_NAME=&quot;${appli_telium2_full_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_TELIUM_COMPATIBILITY=&quot;${appli_telium_compatibility}&quot;"/>
+<userDefine value="_ING_APPLI_SIGN_MODE=&quot;${appli_sign_mode}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+</config>
+</configs>
+</projectDescription>

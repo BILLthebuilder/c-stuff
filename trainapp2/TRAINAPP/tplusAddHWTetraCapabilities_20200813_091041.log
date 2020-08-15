@@ -1,0 +1,14 @@
+Add Hardware Telium Tetra capabilities
+================================================
+
+
+================================================
+Execution report:
+================================================
+------------------------------------------------
+Errors:
+------------------------------------------------
+Error: Available installed SDKs do not support Telium Tetra Hardware!
+Please add one in 'Preferences/IngeDev/Telium/Installed Telium SDK/Add-Ons'
+
+================================================

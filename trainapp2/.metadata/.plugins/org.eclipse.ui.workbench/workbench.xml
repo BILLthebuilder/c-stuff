@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="54" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="144" y="144">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="154" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.ingenico.ingedev.telium.build.signature.sat.toolsAction" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ingenico.ingedev.telium.build.signature.sst.toolsAction" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ingenico.ingedev.telium.download.ide.TeliumDownloadAction" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="com.ingenico.ingedev.telium.download.provider.llt.toolsAction" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ingenico.ingedev.telium.remotedebug.ui.toolsAction" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ingenico.ingedev.telium.ui.teliumBuildActionSet" itemType="typeToolBarContribution" x="154" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="225" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="131" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="284" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="318" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1597298838226" focus="true" label="Workspace - Telium Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Main.c" partName="Main.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Main.c" title="Main.c" tooltip="TRAINAPP/Src/Main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2716" selectionTopPixel="1540"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Entry.c" partName="Entry.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Entry.c" title="Entry.c" tooltip="TRAINAPP/Src/Entry.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Entry.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8189" selectionTopPixel="7866"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Menu.c" partName="Menu.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Menu.c" title="Menu.c" tooltip="TRAINAPP/Src/Menu.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Menu.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1607" selectionTopPixel="2162"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ComGPRS.c" partName="ComGPRS.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/ComGPRS.c" title="ComGPRS.c" tooltip="TRAINAPP/Src/ComGPRS.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/ComGPRS.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3597" selectionTopPixel="2392"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Training.h" partName="Training.h" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Inc/Training.h" title="Training.h" tooltip="TRAINAPP/Inc/Training.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Inc/Training.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1666" selectionTopPixel="2760"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="GL_Types.h" partName="GL_Types.h" title="GL_Types.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\GL_Types.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\GL_Types.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="294" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ExtraGPRS.h" partName="ExtraGPRS.h" title="ExtraGPRS.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\ExtraGPRS.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\ExtraGPRS.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="7632" selectionTopPixel="6624"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FMG.c" partName="FMG.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/FMG.c" title="FMG.c" tooltip="TRAINAPP/Src/FMG.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/FMG.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="25270" selectionTopPixel="21436"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Utility.c" partName="Utility.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Utility.c" title="Utility.c" tooltip="TRAINAPP/Src/Utility.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Utility.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21356" selectionTopPixel="14904"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="VGE_FMG.h" partName="VGE_FMG.h" title="VGE_FMG.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\VGE_FMG.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\VGE_FMG.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="329" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Timer.c" partName="Timer.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Timer.c" title="Timer.c" tooltip="TRAINAPP/Src/Timer.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Timer.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9965" selectionTopPixel="9200"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Goal.c" partName="Goal.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Goal.c" title="Goal.c" tooltip="TRAINAPP/Src/Goal.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Goal.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="40135" selectionTopPixel="36340"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="oem_tplus.h" partName="oem_tplus.h" title="oem_tplus.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\oem_tplus.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\oem_tplus.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="13288" selectionTopPixel="14582"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tmoem.h" partName="tmoem.h" title="tmoem.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\tmoem.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\tmoem.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="1094" selectionTopPixel="1012"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="VGE_FMG.h" partName="VGE_FMG.h" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Inc/VGE_FMG.h" title="VGE_FMG.h" tooltip="TRAINAPP/Inc/VGE_FMG.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Inc/VGE_FMG.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="5469" selectionTopPixel="5750"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" partName="stdio.h" title="stdio.h" tooltip="E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.bin.win32.gnuarm.v434_7.24.0.1\os\win32\GNUARM\4.3.4\arm-elf\include\stdio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.bin.win32.gnuarm.v434_7.24.0.1\os\win32\GNUARM\4.3.4\arm-elf\include\stdio.h" project="TRAINAPP"/>
+<editorState selectionHorizontalPixel="0" selectionLength="53" selectionOffset="7124" selectionTopPixel="9384"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Mapapp.c" partName="Mapapp.c" path="E:/Program Files/Training_BASE_Test/TRAINAPP/Src/Mapapp.c" title="Mapapp.c" tooltip="TRAINAPP/Src/Mapapp.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TRAINAPP/Src/Mapapp.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1877" selectionTopPixel="184"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.cdt.ui.includeBrowser" partName="Include Browser"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Infos (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="285" org.eclipse.ui.ide.markerType="285" org.eclipse.ui.ide.pathField="380" org.eclipse.ui.ide.resourceField="285" org.eclipse.ui.ide.severityAndDescriptionField="1908"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="com.ingenico.ingedev.ui.telium.teliumView" partName="Telium Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator"/>
+<view id="com.ingenico.ingedev.telium.goal.ui.goalPreview" partName="Goal Preview">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.ingenico.ingedev.telium.ui.teliumPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.ingenico.ingedev.telium.ui.TeliumPerspectiveFactory" id="com.ingenico.ingedev.telium.ui.teliumPerspective" label="Telium Development"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.build.signature.sat.toolsAction"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.build.signature.sst.toolsAction"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.download.ide.TeliumDownloadAction"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.download.provider.llt.toolsAction"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.remotedebug.ui.toolsAction"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.ingenico.ingedev.telium.ui.teliumBuildActionSet"/>
+<alwaysOnActionSet id="firstTeliumHelpActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="com.ingenico.ingedev.ui.telium.teliumView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.cdt.ui.IndexView"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<show_view_action id="org.eclipse.cdt.ui.callHierarchy"/>
+<show_view_action id="org.eclipse.cdt.ui.typeHierarchy"/>
+<show_view_action id="com.ingenico.ingedev.ui.unicapt32View"/>
+<show_view_action id="com.ingenico.ingedev.telium.goal.ui.goalPreview"/>
+<new_wizard_action id="com.google.eclipse.protobuf.ui.wizards.NewProtoFileWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.fwt3.ui.wizards.newTeliumFwT3ProjectWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.fwtplus.ui.wizards.newTeliumPlusProjectWizard"/>
+<new_wizard_action id="org.eclipse.team.cvs.ui.newProjectCheckout"/>
+<new_wizard_action id="com.ingenico.ingedev.generic.ui.wizard.newSourceContainerWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.ui.wizards.newTeliumProjectWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.ui.wizards.newTeliumLogicalFolderWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.goal.newWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.goal.newResourceFileWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.telium.goal.newCustomUserResourceFileWizard"/>
+<new_wizard_action id="com.ingenico.ingedev.generic.uta.wizards.newUtaProjectWizard"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.ingenico.ingedev.ui.IngedevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.cdt.ui.includeBrowser"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="com.ingenico.ingedev.ui.telium.teliumView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<view id="com.ingenico.ingedev.telium.goal.ui.goalPreview"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="com.ingenico.ingedev.ui.telium.teliumView" appearance="2" expanded="2">
+<page content="com.ingenico.ingedev.ui.telium.teliumView" label="Telium Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@fd72ef" ratio="0.75" ratioLeft="735" ratioRight="245" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.18618955" ratioLeft="666" ratioRight="2911" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.6214689" ratioLeft="1210" ratioRight="737" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.cdt.ui.includeBrowser" label="Include Browser"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.75722146" ratioLeft="2202" ratioRight="706" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@19f703f" ratio="0.61864406" ratioLeft="292" ratioRight="180" relationship="4" relative="topLeft">
+<folder activePageID="com.ingenico.ingedev.telium.goal.ui.goalPreview" appearance="2" expanded="2">
+<page content="com.ingenico.ingedev.telium.goal.ui.goalPreview" label="Goal Preview"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.SignalsView"/>
+<show_view_action id="org.eclipse.debug.ui.RegisterView"/>
+<show_view_action id="org.eclipse.debug.ui.ModuleView"/>
+<show_view_action id="org.eclipse.debug.ui.MemoryView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.executablesView"/>
+<show_view_action id="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view"/>
+<show_view_action id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<new_wizard_action id="com.google.eclipse.protobuf.ui.wizards.NewProtoFileWizard"/>
+<perspective_action id="com.ingenico.ingedev.telium.ui.teliumPerspective"/>
+<perspective_action id="com.ingenico.ingedev.ui.IngedevPerspective"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.cdt.debug.ui.executablesView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="2685" ratioRight="895" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7497436" ratioLeft="1462" ratioRight="488" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4493844" ratioLeft="657" ratioRight="805" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="2685" ratioRight="895" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="1790" ratioRight="1790" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/Entry.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/Menu.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/ComGPRS.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Inc/Training.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/Utility.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/Goal.c"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.bin.win32.gnuarm.v434_7.24.0.1\os\win32\GNUARM\4.3.4\arm-elf\include\stdio.h" project="TRAINAPP"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TRAINAPP/Src/Mapapp.c"/>
+</editors>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="4716" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="486" y="9"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="4525" y="16"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="4944" y="4"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="2865" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20779" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="4829" y="0"/>
+</item>
+<item historyLabel="Goal.c" index="5">
+<position info="not_deleted" x="42092" y="0"/>
+</item>
+<item historyLabel="Goal.c" index="5">
+<position info="not_deleted" x="40135" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="5037" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20674" y="0"/>
+</item>
+<item historyLabel="stdio.h" index="6">
+<position info="not_deleted" x="7124" y="53"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20674" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20409" y="0"/>
+</item>
+<item historyLabel="Training.h" index="3">
+<position info="not_deleted" x="5580" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="2865" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="4231" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="942" y="15"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="1433" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="29450" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="29992" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="30318" y="0"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="7730" y="0"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="8341" y="4"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="1883" y="10"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="9932" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20659" y="0"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="9579" y="0"/>
+</item>
+<item historyLabel="Mapapp.c" index="7">
+<position info="not_deleted" x="1877" y="12"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="9542" y="103"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="5604" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20658" y="88"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="20801" y="0"/>
+</item>
+<item historyLabel="Utility.c" index="4">
+<position info="not_deleted" x="21356" y="0"/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position/>
+</item>
+<item historyLabel="Entry.c" index="0">
+<position info="not_deleted" x="8189" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="1433" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="29450" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="29992" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="30063" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="30092" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="30126" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="30603" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="3631" y="25"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="3731" y="0"/>
+</item>
+<item historyLabel="Menu.c" index="1">
+<position info="not_deleted" x="1607" y="0"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="17884" y="7"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="36266" y="7"/>
+</item>
+<item historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="40198" y="189"/>
+</item>
+<item active="true" historyLabel="ComGPRS.c" index="2">
+<position info="not_deleted" x="3559" y="12"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@19f703f"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mapapp.c" tooltip="TRAINAPP/Src/Mapapp.c">
+<persistable path="/TRAINAPP/Src/Mapapp.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" tooltip="E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.bin.win32.gnuarm.v434_7.24.0.1\os\win32\GNUARM\4.3.4\arm-elf\include\stdio.h">
+<persistable path="E:\Ingenico\IngeDev_7.28.6.1\plugins\com.ingenico.ingedev.telium.bin.win32.gnuarm.v434_7.24.0.1\os\win32\GNUARM\4.3.4\arm-elf\include\stdio.h" project="TRAINAPP"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VGE_FMG.h" tooltip="TRAINAPP/Inc/VGE_FMG.h">
+<persistable path="/TRAINAPP/Inc/VGE_FMG.h"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tmoem.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\tmoem.h">
+<persistable path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\tmoem.h" project="TRAINAPP"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="oem_tplus.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\oem_tplus.h">
+<persistable path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\oem_tplus.h" project="TRAINAPP"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Goal.c" tooltip="TRAINAPP/Src/Goal.c">
+<persistable path="/TRAINAPP/Src/Goal.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Timer.c" tooltip="TRAINAPP/Src/Timer.c">
+<persistable path="/TRAINAPP/Src/Timer.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VGE_FMG.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\VGE_FMG.h">
+<persistable path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\VGE_FMG.h" project="TRAINAPP"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Utility.c" tooltip="TRAINAPP/Src/Utility.c">
+<persistable path="/TRAINAPP/Src/Utility.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FMG.c" tooltip="TRAINAPP/Src/FMG.c">
+<persistable path="/TRAINAPP/Src/FMG.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="codeRefactoring_20200813_100219.log" tooltip="TRAINAPP/codeRefactoring_20200813_100219.log">
+<persistable path="/TRAINAPP/codeRefactoring_20200813_100219.log"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Goal.h" tooltip="TRAINAPP/Inc/Goal.h">
+<persistable path="/TRAINAPP/Inc/Goal.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="codeRefactoring_20200813_095946.log" tooltip="TRAINAPP/codeRefactoring_20200813_095946.log">
+<persistable path="/TRAINAPP/codeRefactoring_20200813_095946.log"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ExtraGPRS.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\ExtraGPRS.h">
+<persistable path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\ExtraGPRS.h" project="TRAINAPP"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="libgr.h" tooltip="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\libgr.h">
+<persistable path="C:\Program Files\TeliumSDK\SDK11.16.8.02\SDKTPLUS\HW_T2\gnu_434\inc\libgr.h" project="TRAINAPP"/>
+</file>
+</mruList>
+</workbench>
